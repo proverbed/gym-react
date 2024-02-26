@@ -1,5 +1,6 @@
 import Button from "./Button";
 import IllustrationLogo from "./../img/illustration-intro.svg";
+// @ts-expect-error
 import HeroPattern from "./../img/bg-tablet-pattern.svg";
 
 export default function Hero() {

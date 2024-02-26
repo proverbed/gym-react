@@ -1,5 +1,7 @@
 import Button from "./Button";
+// @ts-expect-error
 import CTADesktop from "./../img/bg-simplify-section-desktop.svg";
+// @ts-expect-error
 import CTAMobile from "./../img/bg-simplify-section-mobile.svg";
 
 const CTA: React.FC = () => {
