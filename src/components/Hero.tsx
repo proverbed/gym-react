@@ -1,12 +1,11 @@
 import Button from "./Button";
 import IllustrationLogo from "./../img/illustration-intro.svg";
-import HeroPattern from "./../img/bg-tablet-pattern.svg";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className={`bg-[url("${HeroPattern}")] bg-[size:800px] bg-[position:90%_-25%] bg-no-repeat`}
+      className={`bg-hero-pattern bg-[size:800px] bg-[position:90%_-25%] bg-no-repeat`}
     >
       <div className=" container mx-auto mt-10 flex flex-col-reverse items-center  space-y-0   px-6 md:flex-row md:space-y-0">
         {/* Left item  */}
@@ -26,11 +25,6 @@ export default function Hero() {
         {/* Right Item */}
         <div className="md:w-1/2">
           <img src={IllustrationLogo} alt="Illusttration logo" />
-        </div>
-
-        <div className="hidden">
-          <span>here we goals</span>
-          <img src={HeroPattern} alt="HeroPattern" />
         </div>
       </div>
     </section>
