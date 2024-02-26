@@ -1,11 +1,12 @@
 import Button from "./Button";
 import IllustrationLogo from "./../img/illustration-intro.svg";
+import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className={`bg-hero-pattern bg-[size:800px] bg-[position:90%_-25%] bg-no-repeat`}
+      className={`${styles.backgroundPattern} bg-[size:800px] bg-[position:90%_-25%] bg-no-repeat`}
     >
       <div className=" container mx-auto mt-10 flex flex-col-reverse items-center  space-y-0   px-6 md:flex-row md:space-y-0">
         {/* Left item  */}
