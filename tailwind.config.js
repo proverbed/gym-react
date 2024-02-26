@@ -1,4 +1,3 @@
-import heroPattern from "./src/img/tablet-pattern.svg";
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -11,9 +10,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('./assets/bg-tablet-pattern.svg')",
-        "cta-desktop": "url('./assets/bg-simplify-section-desktop.svg')",
-        "cta-mobile": "url('./assets/bg-simplify-section-mobile.svg')",
+        "cta-desktop": "url('./bg-simplify-section-desktop.svg')",
+        "cta-mobile": "url('./bg-simplify-section-mobile.svg')",
       },
       colors: {
         brightRed: "hsl(12, 88%, 59%)",
