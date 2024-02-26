@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('bg-tablet-pattern.svg')",
+        "hero-pattern": `url('${HeroPattern}')`,
         "cta-desktop": "url('bg-simplify-section-desktop.svg')",
         "cta-mobile": "url('bg-simplify-section-mobile.svg')",
       },
