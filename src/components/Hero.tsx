@@ -29,6 +29,7 @@ export default function Hero() {
         </div>
 
         <div className="hidden">
+          <span>here we goals</span>
           <img src={HeroPattern} alt="HeroPattern" />
         </div>
       </div>
