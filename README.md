@@ -4,7 +4,7 @@
 
    <p>A fully responsive landing page, created with a Tailwind CSS crash course. I've made some improvements to the course. </p>
 
-👉 Live Demo: <a href=''>Live Demo</a>
+👉 Live Demo: <a href='https://tailwind-landing-page-crash-course.vercel.app/'>Live Demo</a>
 
  <h3>Build with:</h3>
 
