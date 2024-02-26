@@ -10,8 +10,9 @@ export default {
     },
     extend: {
       backgroundImage: {
+        "hero-pattern": "url('bg-tablet-pattern.svg')",
         "cta-desktop": "url('./bg-simplify-section-desktop.svg')",
-        "cta-mobile": "url('./bg-simplify-section-mobile.svg')",
+        "cta-mobile": "url('./assets/bg-simplify-section-mobile.svg')",
       },
       colors: {
         brightRed: "hsl(12, 88%, 59%)",
