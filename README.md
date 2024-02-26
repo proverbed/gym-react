@@ -24,10 +24,9 @@
 <img src=''/>
 
 <h3>Mobile</h3>
+<div>
 <img src=''/>
 
 <h3 align='left'>Resources</h3>
-
-<a href='https://www.youtube.com/watch?v=dFgzHOX84xQ&t=1805s'>
-
+<a href='https://www.youtube.com/watch?v=dFgzHOX84xQ&t=1805s'>YouTube</a>
 </div>
