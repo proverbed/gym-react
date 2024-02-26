@@ -1,12 +1,19 @@
-import "./App.css";
-import Card from "./Card";
+import CTA from "./components/CTA";
+import Hero from "./components/Hero";
+import HomeFeatures from "./components/HomeFeatures";
+import Nav from "./components/Nav";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline ">Hello world!</h1>
-
-      <Card />
+      <Nav />
+      <Hero />
+      <HomeFeatures />
+      <Testimonials />
+      <CTA />
+      <Footer />
     </>
   );
 }
