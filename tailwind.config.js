@@ -9,11 +9,6 @@ export default {
       xl: "1440px",
     },
     extend: {
-      backgroundImage: {
-        "hero-pattern": `url('/assets/bg-tablet-pattern.svg')`,
-        "cta-desktop": "url('/assets/bg-simplify-section-desktop.svg')",
-        "cta-mobile": "url('/assets/bg-simplify-section-mobile.svg')",
-      },
       colors: {
         brightRed: "hsl(12, 88%, 59%)",
         brightRedLight: "hsl(12, 88%, 69%)",

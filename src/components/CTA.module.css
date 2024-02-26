@@ -1,0 +1,9 @@
+.backgroundPattern {
+    background-image: url('/bg-simplify-section-mobile.svg');
+}
+
+@media (min-width: 768px) {
+    .backgroundPattern {
+        background-image: url('/bg-simplify-section-desktop.svg');
+    }
+}
